@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "_id": "admin-seed",
+      "name": "Campus Admin",
+      "email": "admin@campusbite.com",
+      "passwordHash": "$2a$10$QyWE4AOqdKy7lHFDZbJ0MunWt0XscuYJaIvu6FFFBPh9GxdCct3NK",
+      "role": "admin"
+    },
+    {
+      "_id": "u-1794897074600",
+      "name": "Narendra Kumar",
+      "email": "narendra@123.gmail.com",
+      "passwordHash": "$2a$10$hLsQ02rIOUyvAYKLr9MT2.phscgf2JzXo2cqQ6ln3rr8iliKr3PRS",
+      "role": "student"
+    }
+  ],
+  "foods": [
+    {
+      "_id": "food-1",
+      "name": "Masala Dosa",
+      "price": 50,
+      "category": "South Indian",
+      "emoji": "🥞",
+      "description": "Crispy dosa with spicy potato masala"
+    },
+    {
+      "_id": "food-2",
+      "name": "Idli Sambar",
+      "price": 35,
+      "category": "South Indian",
+      "emoji": "🍘",
+      "description": "Soft idlis, warm sambar, chutney"
+    },
+    {
+      "_id": "food-3",
+      "name": "Ghee Karam Dosa",
+      "price": 65,
+      "category": "South Indian",
+      "emoji": "🌶️",
+      "description": "Ghee roast with fiery karam podi"
+    },
+    {
+      "_id": "food-4",
+      "name": "Veg Burger",
+      "price": 60,
+      "category": "Snacks",
+      "emoji": "🍔",
+      "description": "Crispy patty, fresh veggies, sauce"
+    },
+    {
+      "_id": "food-5",
+      "name": "Campus French Fries",
+      "price": 45,
+      "category": "Snacks",
+      "emoji": "🍟",
+      "description": "Golden, crunchy, salted fries"
+    },
+    {
+      "_id": "food-6",
+      "name": "Paneer Fried Rice",
+      "price": 80,
+      "category": "Meals",
+      "emoji": "🍚",
+      "description": "Wok-tossed rice with paneer"
+    },
+    {
+      "_id": "food-7",
+      "name": "Veg Meals",
+      "price": 90,
+      "category": "Meals",
+      "emoji": "🍛",
+      "description": "A hearty Andhra-style lunch plate"
+    },
+    {
+      "_id": "food-8",
+      "name": "Fresh Lime Soda",
+      "price": 25,
+      "category": "Drinks",
+      "emoji": "🍋",
+      "description": "Cool, tangy and refreshing"
+    },
+    {
+      "_id": "food-9",
+      "name": "Mango Juice",
+      "price": 35,
+      "category": "Drinks",
+      "emoji": "🥭",
+      "description": "Seasonal mango goodness"
+    },
+    {
+      "_id": "food-10",
+      "name": "Brownie Bite",
+      "price": 40,
+      "category": "Desserts",
+      "emoji": "🍫",
+      "description": "Fudgy chocolate treat"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "o-1794897098747",
+      "studentId": "u-1794897074600",
+      "studentName": "Narendra Kumar",
+      "createdAt": "2026-11-17T06:31:38.747Z",
+      "items": [
+        {
+          "foodId": "food-1",
+          "name": "Masala Dosa",
+          "emoji": "🥞",
+          "price": 50,
+          "qty": 1
+        },
+        {
+          "foodId": "food-5",
+          "name": "Campus French Fries",
+          "emoji": "🍟",
+          "price": 45,
+          "qty": 1
+        },
+        {
+          "foodId": "food-10",
+          "name": "Brownie Bite",
+          "emoji": "🍫",
+          "price": 40,
+          "qty": 1
+        }
+      ],
+      "total": 135,
+      "status": "Preparing"
+    }
+  ]
+}
