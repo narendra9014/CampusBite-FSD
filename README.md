@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CampusBite — College Canteen Ordering Platform
 
 A full-stack FSD project inspired by modern food-ordering apps, with a bold Indian-campus maximalist visual identity.
@@ -75,3 +76,7 @@ CampusBite-FSD/
 
 ## Notes for academic demo
 This is a local demonstration application. For real deployment, use a production database, HTTPS, environment-based secrets, stricter validation, and hardened rate limiting.
+=======
+# CampusBite-FSD
+Full-Stack College Canteen Food Ordering System
+>>>>>>> f15c49a6065299b99107e81d3e9a207ce7d9f864
